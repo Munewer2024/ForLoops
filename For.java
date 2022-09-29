@@ -12,7 +12,7 @@ public class For
        for (int j = 10; j > 0; j -= 2) {
            System.out.println("j is " + j);
        }
-       for (int k = 10; k >= 0; k -= 3) {
+       for (int k = 10; k == 0; k -= 3) {
            System.out.println("k is " + k);
            // Never reaches 0
        }
